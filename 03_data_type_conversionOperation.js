@@ -27,5 +27,48 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let anyNumer = 99
 let stringNumber = String(anyNumer)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// *********************** Operation *****************************
+
+// prefix and postfix js
+
+let x = 3;
+const y = x++;
+
+// console.log(`x:${x}, y:${y}`);
+
+let a = 3;
+const b = ++a;
+
+// console.log(`a:${a}, b:${b}`);
+
+
+
+// Postfix increment
+
+// let p = 3;
+// const q = p++;
+// console.log(`p:${p} and n:${q}`);
+// // p is 4; n is 3
+
+// let p2 = 3n;
+// const q2 = p2++;
+// console.log(`p:${p2} and n:${q2}`)
+// // p2 is 4n; q2 is 3n
+
+
+
+// Prefix increment
+
+let p = 3;
+const q = ++p;
+console.log(`p:${p} and n:${q}`);
+// p is 4; n is 4
+
+let p2 = 3n;
+const q2 = ++p2;
+console.log(`p:${p2} and n:${q2}`)
+// p2 is 4n; q2 is 4n
