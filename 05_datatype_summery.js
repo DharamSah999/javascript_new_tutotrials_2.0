@@ -19,7 +19,7 @@ let userEmail;
 const id = Symbol("123")
 const anotherId = Symbol("123")
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 
 const bigNumber = 46564867384287n;
@@ -29,3 +29,18 @@ const bigNumber = 46564867384287n;
 // Reference datatype (Non Primitive Datatype) : Array, Objects, Function
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ##################################################################################################
+
+// stack (Primitive Data Type), Heap(Non Primitive Data Type)
+
+
+let myYoubeTubeName = "Blender_with_BN_Sah";
+
+let anotherName = myYoubeTubeName;
+anotherName = '3DGrahics';
+
+console.log(myYoubeTubeName);
+console.log(anotherName);
