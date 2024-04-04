@@ -22,6 +22,10 @@ const anotherId = Symbol("123")
 console.log(id === anotherId);
 
 
-const bigNumber = 46564867384287n
+const bigNumber = 46564867384287n;
+
+
 
 // Reference datatype (Non Primitive Datatype) : Array, Objects, Function
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
